@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - ei102714fnv@db-aules.uji.es" uuid="016c9f92-4f1b-4b71-995b-e0f2d2e4762e">
+      <user-name>ei102714fnv</user-name>
+      <user-password>dfcfdfc3df9bdf9adf98df9ddf9bdf9edfccdfc4dfdc</user-password>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>lynx.uji.es</proxy-host>
+        <proxy-port>22</proxy-port>
+        <secret-storage>master_key</secret-storage>
+        <user>al259374</user>
+        <use-password>true</use-password>
+      </ssh-properties>
+      <ssl-config>
+        <enabled>true</enabled>
+      </ssl-config>
+    </data-source>
+  </component>
+</project>
