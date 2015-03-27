@@ -1,9 +1,10 @@
-package dao;
+package model.dao;
 
-import database.ConnectionManager;
-import model.Activity;
-import model.HourRange;
-import model.Tag;
+
+import model.database.ConnectionManager;
+import model.entities.Activity;
+import model.entities.HourRange;
+import model.entities.Tag;
 
 import java.sql.*;
 import java.util.*;

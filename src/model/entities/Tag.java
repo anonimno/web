@@ -1,4 +1,4 @@
-package model;
+package model.entities;
 
 public class Tag implements RowPrinter{
     private long idTag;

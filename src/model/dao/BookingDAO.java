@@ -1,13 +1,13 @@
-package dao;
+package model.dao;
 
-import database.ConnectionManager;
-import model.Booking;
+import model.database.ConnectionManager;
+import model.entities.Booking;
 import org.joda.time.DateTime;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.HashSet;
 import java.util.Set;
 

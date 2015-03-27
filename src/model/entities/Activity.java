@@ -1,4 +1,4 @@
-package model;
+package model.entities;
 
 import java.util.List;
 
@@ -86,7 +86,7 @@ public class Activity implements RowPrinter {
         StringBuilder stringBuilder = new StringBuilder();
         for(R entity : entities){
             for(String info : entity.rowData()){
-                stringBuilder.append(info+" ");
+                stringBuilder.append(info).append(" ");
             }
             stringBuilder.append("\n");
         }

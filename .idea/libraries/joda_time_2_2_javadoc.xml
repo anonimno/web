@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="joda-time-2.2-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/joda-time-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/postgresql-9.4-1200.jdbc41.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/joda-time-2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

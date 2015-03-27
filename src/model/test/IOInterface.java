@@ -1,13 +1,14 @@
-package test;
+package model.test;
 
-import dao.TagDAO;
-import model.*;
+import model.dao.TagDAO;
+import model.entities.*;
 import org.joda.time.DateTime;
 import org.joda.time.LocalTime;
 
 import java.util.*;
 
 
+@SuppressWarnings("UnusedAssignment")
 public class IOInterface {
 
     private Controller delegate;
@@ -50,9 +51,9 @@ public class IOInterface {
     private String buildStringFromCollection(String[] row){
         StringBuilder stringBuilder = new StringBuilder();
         for(int i=0;i<row.length-1;i++){
-            stringBuilder.append(row[i]+"\t");
+            stringBuilder.append(row[i]).append("\t");
         }
-        stringBuilder.append(row[row.length-1]+"\n");
+        stringBuilder.append(row[row.length - 1]).append("\n");
         return stringBuilder.toString();
     }
 
@@ -201,7 +202,7 @@ public class IOInterface {
     private List<Tag> getTags(TagDAO tagDAO) {
         List<Tag> tags = new LinkedList<>();
         printCollection(tagDAO.list(),"Tags");
-        byte option = 0;
+        byte option;
         do{
             printAddTagsMenu();
             option = askOption();
@@ -235,7 +236,7 @@ public class IOInterface {
     private List<HourRange> getHourRanges() {
         List<HourRange> hours = new LinkedList<>();
 
-        byte option = 0;
+        byte option;
 
         do {
             printAddHourRangesMenu();

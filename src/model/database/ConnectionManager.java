@@ -1,6 +1,6 @@
-package database;
+package model.database;
 
-import dao.Loggable;
+import model.dao.Loggable;
 
 import java.io.IOException;
 import java.io.InputStream;

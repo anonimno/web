@@ -1,7 +1,7 @@
-package dao;
+package model.dao;
 
-import database.ConnectionErrors;
-import database.ConnectionManager;
+import model.database.ConnectionErrors;
+import model.database.ConnectionManager;
 
 import java.util.Set;
 

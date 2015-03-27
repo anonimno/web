@@ -1,4 +1,4 @@
-package model;
+package model.entities;
 
 /**
  * User is a generalization entity over Client, Manager and Instructor.
@@ -12,7 +12,7 @@ package model;
  *
  * */
 
- public class User implements RowPrinter{
+ public class User implements RowPrinter {
 	private long userId;
 	private String username;
 	private String password;

@@ -1,4 +1,4 @@
-package test;
+package model.test;
 
 public class DBClientApp {
 

@@ -1,8 +1,9 @@
-package dao;
+package model.dao;
 
-import database.ConnectionManager;
-import model.User;
-import model.UserType;
+
+import model.database.ConnectionManager;
+import model.entities.User;
+import model.entities.UserType;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

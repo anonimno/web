@@ -1,7 +1,8 @@
-package dao;
+package model.dao;
 
-import database.ConnectionManager;
-import model.Tag;
+
+import model.database.ConnectionManager;
+import model.entities.Tag;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

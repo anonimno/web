@@ -1,4 +1,4 @@
-package model;
+package model.entities;
 
 enum Language {
 	SPANISH("Espanol"),

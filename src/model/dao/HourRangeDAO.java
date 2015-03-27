@@ -1,8 +1,8 @@
-package dao;
+package model.dao;
 
-import database.ConnectionManager;
-import model.Day;
-import model.HourRange;
+import model.database.ConnectionManager;
+import model.entities.Day;
+import model.entities.HourRange;
 import org.joda.time.LocalTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;

@@ -1,10 +1,10 @@
-package test;
+package model.test;
 
-import dao.*;
-import model.Activity;
-import model.Booking;
-import model.Tag;
-import model.User;
+import model.dao.*;
+import model.entities.Activity;
+import model.entities.Booking;
+import model.entities.Tag;
+import model.entities.User;
 
 import java.sql.SQLException;
 import java.util.Set;
@@ -26,7 +26,7 @@ public class Controller {
         initializeDAOs();
 
         //Print Menu and execute actions
-        byte option = 0;
+        byte option;
         do{
             printMenu();
             option = ioInterface.askOption();
