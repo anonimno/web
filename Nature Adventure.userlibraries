@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<eclipse-userlibraries>
-  <library name="joda-time:joda-time:2.2">
-    <archive path="/home/turing/Code/NatureAdventure/lib/joda-time-2.2.jar" />
-    <archive path="/home/turing/Code/NatureAdventure/lib/postgresql-9.4-1200.jdbc41.jar" />
-  </library>
-</eclipse-userlibraries>
-
