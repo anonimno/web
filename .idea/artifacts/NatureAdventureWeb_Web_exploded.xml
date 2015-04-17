@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="NatureAdventureWeb:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/NatureAdventureWeb_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="NatureAdventureWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="NatureAdventureWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.1.6.RELEASE" />
+          <element id="library" level="project" name="joda-time-2.2-javadoc" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -2,7 +2,10 @@
 <component inheritJdk="true">
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="Tomcat 7.0.57" scope="PROVIDED"/>
 	<levels>
 		<level name="joda-time-2.2-javadoc" value="project"/>
+		<level name="Spring-4.1.6.RELEASE" value="project"/>
+		<level name="Tomcat 7.0.57" value="application_server_libraries"/>
 	</levels>
 </component>
